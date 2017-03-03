@@ -1,0 +1,83 @@
+/* Name: Krishna Prasad M P Username:jadrn027  */
+
+* { margin:0; padding:0;}
+
+/*-------------------------------------------------
+                body sytles start
+-------------------------------------------------*/
+body {
+  background: url('images/rock.jpg') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+
+} 
+
+/*-------------------------------------------------
+                logos 
+-------------------------------------------------*/
+
+.wrapper {
+  background-color:#3E474F;
+  font-family: 'Freight Sans Bold', helvetica, arial, sans-serif;
+  color: #b2bbbd;
+  min-width: 100%;
+  width:1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+.wrapper li {
+  list-style: none;
+  display: inline;
+}
+.sdsu {
+  font-size: 40px;
+  padding-left: 15px;
+  position: relative;
+  top: 10px;
+}
+.azteclogo {
+  padding-left:400px;
+  font-size:50px;
+  text-transform: uppercase;
+  position: relative;
+  top: 10px;
+}
+
+/*-------------------------------------------------
+                Event text and date
+-------------------------------------------------*/
+.bigtext {
+  padding-top: 160px;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  color:#fff;
+  margin: 0 auto;
+}
+.lib {
+
+  font-size: 30px;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+.reg {
+  font-size: 8vw;
+}
+.day {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+/*-------------------------------------------------
+                Registration Button
+-------------------------------------------------*/
+
+.button {
+ background-color: #f44336;
+ color: white;
+ padding: 14px 25px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+}

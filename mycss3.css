@@ -1,0 +1,227 @@
+/* Name: Krishna Prasad M P Username:jadrn027  */
+
+* { margin:0; padding:0;}
+
+
+body {
+  background-color: #EDEFF0; 
+}
+
+/*-------------------------------------------------
+                logos
+-------------------------------------------------*/
+.wrapper {
+  background-color:#3E474F;
+  font-family: 'Freight Sans Bold', helvetica, arial, sans-serif;
+  color: #b2bbbd;
+  min-width: 100%;
+  width:1390px;
+  margin: 0 auto;
+  height: 70px;
+}
+.wrapper li {
+  list-style: none;
+  display: inline;
+}
+.sdsu {
+  font-size: 40px;
+  padding-left: 15px;
+  position: relative;
+  top: 10px;
+}
+.azteclogo {
+  padding-left:400px;
+  font-size:50px;
+  text-transform: uppercase;
+  position: relative;
+  top: 10px;
+}
+
+/*-------------------------------------------------
+                body sytles start
+-------------------------------------------------*/
+
+.reg_container {
+  font-family: 'Freight Sans Bold', helvetica, arial, sans-serif;
+  font-weight: bold !important;
+  letter-spacing: normal;
+  width:1380px;
+  height:980px;
+  margin: 0 auto;
+  color:#384047;
+}
+
+.login_form {
+  position: relative;
+  left:6px;
+  float:right;
+  padding-top:45px;
+  background-color:transparent;
+  font-size:18px;
+  font-family:helvetica,arial,sans-serif;
+
+}
+
+.details {
+  padding-top: 65px;
+  ine-height: 1.2;
+}
+.qoute {
+  padding-top:25px;
+  padding-left:15px;
+  padding-bottom:15px;
+}
+
+.race,.sch,.start,.finish {
+  padding-top:15px;
+  padding-left:125px;
+}
+.entry {
+  padding-top:15px;
+  padding-left:50px;
+}
+.lastp {
+  padding-left:50px;
+}
+p {
+  padding:10px 10px;
+  padding-left:115px;
+}
+
+/*-------------------------------------------------
+                Form fields
+-------------------------------------------------*/
+.fname,.mname,.lname,.city,.adr1,.adr2,.zip,.stat,.pno,.email,.med,.birth,.subform,.clearform,.pn1,.pn2 {
+  margin:8px 8px 8px 8px;
+  padding-top:8px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:8px;
+  position:relative;
+  width:172px;
+  background-color:white;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-left-style:solid;
+  border-left-width:1px;
+  border-right-style:solid;
+  border-right-width:1px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  border-top-width:1px;
+  font-family:helvetica,arial,sans-serif;
+  font-size:18px;
+  line-height:19px;
+  top:5px;
+}
+.stat {
+  width:40px;
+}
+.city {
+  width:140px;
+}
+.zip {
+  width:80px;
+}
+.pn1,.pn2,.pno {
+  width:40px;
+}
+.adr1,.adr2{
+  width:372px;
+}
+.stat_name {
+  padding-top:10px;
+}
+.state,.zip {
+  margin:10px 8px 8px 8px;
+}
+.med {
+  width:372px;
+  height:100px;
+  padding: 0px 0px 0px 0px;
+}
+.email {
+  width:372px;
+}
+.label_1 {
+  position: relative;
+  top: 5px;
+  padding-left: 5px;
+  font-size:18px;
+  font-weight:400;
+}
+
+.label_2 {
+  position: relative;
+  top: 5px;
+  margin:5px;
+  margin-bottom:5px;
+  padding-top:5px;
+}
+.quote1 {
+  padding-left:45px;
+}
+.quote2 {
+  padding-left:10px;
+}
+.quote3 {
+  padding-left:100px;
+}
+.end {
+  padding-top:10px;
+}
+.phone,.email_label,.gender_label,.radio,.med_label,.cat_label {
+  position: relative;
+  top: 8px;
+  padding-bottom: 5px;
+}
+.adr1,.stat_name,.phone,.email_label,.gender_label,.birth_label,.med_label {
+  display:block;
+}
+.cat_label,.e_label {
+  display:block;
+}
+.male_label,.female_label,.teen_label,.adult_label,.senior_label{
+  position: relative;
+  top: 8px;
+  padding-right: 15px;
+}
+.ex_label,.exp_label,.nov_label {
+  position: relative;
+  top: 8px;
+  padding-right: 15px;
+}
+.birth_label,.e_label {
+  position: relative;
+  top: 18px;
+  padding-bottom: 12px;
+}
+.send{
+  padding-top: 15px;
+}
+.subform {
+  padding-top: 10px;
+}
+.correct {
+  display:block;
+  color: red;
+} 
+.fname_error,.state_error,.address_error,.city_error,.zip_error,.phone_error {
+  display: block;
+  color: red;
+}
+
+.area_error,.prefix_error,.email_error,.lname_error,.birth_error {
+  display: block;
+  color:red;
+}
+/*-------------------------------------------------
+                blur 
+-------------------------------------------------*/
+.error {
+    border:  1px solid red;   
+    background-color: #FEE;  
+    }
+   

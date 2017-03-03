@@ -1,0 +1,107 @@
+<!--Name: Krishna Prasad M P Username:jadrn027-->
+<!doctype html>
+<html>
+<head>
+  <title>SDSU Marathon</title>
+  <meta charset="UTF-8">
+  <link   rel="stylesheet" type="text/css" href="mycss3.css">
+  <script type="text/javascript" src="http://jadran.sdsu.edu/jquery/jquery.js"></script>
+  <script type="text/javascript" src="form.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <ul>
+      <li class="sdsu">SDSU</li>
+      <li class="azteclogo">Go Aztecs Marathon</li>
+    </ul>
+  </div>
+  <div class="reg_container">
+    <div class="login_form">
+      <legend>Personal information</legend>
+      <form id ="registration_form" action="http://jadran.sdsu.edu/~jadrn000/echo.php" method="post">
+       <!--- Name Field !-->
+       <span class="fname_error"></span>
+       <span class="lname_error"></span>
+       <input class="fname" type="text" name="firstname" required placeholder="First name" id="form_firstname" />
+       <input class="mname" type="text"  name="middlename" placeholder="Middle name" />
+       <input class="lname" type="text"  name="lastname"  required placeholder="Last name" id="form_lastname" />
+       <!-- Address !-->
+       <span class="address_error"></span>
+       <input class="adr1" type="text"  name="address1"  placeholder="Address 1" id="form_address" />
+       <input class="adr2" type="text"  name="address2" placeholder="Address 2"/>
+       <!-- State !-->
+       <label class="stat_name">State</label>
+       <input class="stat" type="text" required  name="state" id="form_statename" />
+       <input class="city" type="text" required name="city" placeholder="City" id="form_city" />
+       <input  class="zip" type="text" required name="zipcode" size="5" maxlength="5" placeholder="Zipcode" id="form_zip" />
+       <span class="state_error"></span>
+       <span class="city_error"></span>
+       <span class="zip_error"></span>
+       <!-- phone number !-->
+       <label class="phone">Phone number</label>
+       (<input class="pno" type="text" name="area_phone" id="phone" size="3" maxlength="3" />)
+       <input class="pn1" type="text" name="prefix_phone" size="3" maxlength="3" id="prefix-phone" />
+       <input class="pn2" type="text" name="phone" size="4" maxlength="4" id="last-phone" />
+       <span class="area_error"></span>
+       <span class="prefix_error"></span>
+       <span class="phone_error"></span>
+       <!-- email !-->
+       <label class="email_label"> Email</label>
+       <input class="email" type="text"  name="email" placeholder="Enter your email address" id="form_email"/>
+       <span class="email_error"></span>
+       <!-- gender !-->
+       <label class="gender_label"> Gender</label>
+       <input class="radio" type="radio" required name="gender" value="male" />
+       <label class="male_label">Male</label>
+       <input class="radio" type="radio" required name="gender" value="female"/>
+       <label class="female_label">Female</label>
+       <!-- Birthday !-->
+       <label class="birth_label"> Birthday</label>
+       <input  class="birth" type="text" required name ="birth" placeholder="mm/dd/yyyy"/ id="form_birthdate">
+       <span class="birth_error"></span>
+       <label class="med_label"> Medical Conditions</label>
+       <textarea  class ="med" type="text"  name="medical"> </textarea>
+       <!-- Category !-->
+       <label class="cat_label">Category</label>
+       <input class="radio" type="radio" required  name="category" value="teen"/>
+       <label class="teen_label">Teen</label>
+       <input class="radio" type="radio"  required name="category" value="adult"/>
+       <label class="adult_label">Adult</label>
+       <input  class="radio" type="radio"  required name="category" value="senior"/>
+       <label class="senior_label">Senior</label>
+       <!--- Experience !-->
+       <label class="e_label">Experience level</label>
+       <input class="radio" type="radio" required name="Experience" value="expert"/>
+       <label class="ex_label">Expert</label>
+       <input class="radio" type="radio" required name="Experience" value="experience"/>
+       <label class="exp_label">Experienced</label>
+       <input class="radio" type="radio" required name="Experience" value="novice"/>
+       <label class="nov_label">Novice</label>
+       <div class="send">
+        <span class="correct"></span>
+        <button class ="subform" type="submit" value="Submit"/>Submit</button>
+        <button class ="clearform" type="reset" value="Clear"/>Clear</button>
+      </div>
+    </form>
+  </div>
+  <div class="details">
+    <div class="qoute">
+     <h2 class="quote1">"If you want to run, run a mile.</h2>
+     <h2 class="quote2"> If you want to experience a different life,</h2>
+     <h2 class="quote3">run a marathon"</h2>
+   </div>
+   <h2 class="race"> THE RACE </h2>
+   <p> Go Aztecs Marathon<br>December 04,2016</p>
+   <h2 class="start"> THE START </h2>
+   <p> SDSU Library</p>
+   <h2 class="sch"> RACE SCHEDULE </h2>
+   <p> 8:30 AM </p>
+   <h2 class="finish"> THE FINISH </h2>
+   <p> Solana Beach,CA </p>
+   <h2 class="entry">EVENT ENTRY REQUIREMENTS</h2>
+   <p class="lastp">Participants must be 16 years or older on race day</p>
+   </div>
+ </div>
+</div>
+</body>
+</html>
